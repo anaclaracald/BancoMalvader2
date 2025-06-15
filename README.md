@@ -30,49 +30,15 @@ Desenvolver uma aplicação bancária a qual é capaz de gerenciar contas, funci
 ## Estrutura do Projeto
 
 ```
-banco_malvader/
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       └── package/  
-│   │   │           ├── controller/
-│   │   │           │   ├── 
-│   │   │           │   └── 
-│   │   │           │
-│   │   │           ├── dao/
-│   │   │           │   ├── 
-│   │   │           │   ├── impl/ 
-│   │   │           │   │   └── 
-│   │   │           │   └── 
-│   │   │           │
-│   │   │           ├── model/
-│   │   │           │   ├── 
-│   │   │           │   └── 
-│   │   │           │
-│   │   │           ├── util/
-│   │   │           │   ├── 
-│   │   │           │   ├── 
-│   │   │           │   └── 
-│   │   │           │
-│   │   │           └── view/
-│   │   │               ├── 
-│   │   │               ├── componentes/ 
-│   │   │               │   └── 
-│   │   │               └── 
-│   │   │
-│   │   └── resources/
-│   │       ├── 
-│   │       ├── 
-│   │       └── 
-│
-├── lib/ 
-│   ├── 
-│   └── 
-│
-├── 
-├── 
-└── README.md 
+Model: Estrutura de dados do sistema. As classes neste pacote espelham as tabelas do banco de dados. 
+
+View: Camada de apresentação responsável pela interface gráfica (GUI), implementada em JavaFX. Interação com o usuário e exibição de dados. 
+
+Controller: Lógica de negócios da aplicação. Processamento das requisições do usuário e acionamento das regras de negócio. 
+
+DAO (Data Access Object): Abstrai o acesso ao banco de dados. Este pacote contém as classes responsáveis por executar todas as operações SQL. 
+
+Util: Pacote com classes utilitárias, como gerenciamento de conexão com o banco de dados e manipulação de arquivos para exportação de relatórios. 
 ```
 
 ---
